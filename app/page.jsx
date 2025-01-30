@@ -1,7 +1,9 @@
-import Hero from '../components/Hero'
-import Services from '../components/Services'
-import Features from '../components/Features'
-import Contact from '../components/Contact'
+'use client';
+
+import Hero from '../components/Hero';
+import Services from '../components/Services';
+import Features from '../components/Features';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -11,5 +13,5 @@ export default function Home() {
       <Features />
       <Contact />
     </main>
-  )
+  );
 }
