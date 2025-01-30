@@ -1,5 +1,5 @@
 import React from 'react';
-import { Database, Globe, Search, Api, Shield, BarChart } from 'lucide-react';
+import { Database, Globe, Search, Terminal, Shield, BarChart } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -10,7 +10,7 @@ export default function Services() {
       features: ["Company Details", "Financial Data", "Corporate Structure", "Real-time Updates"]
     },
     {
-      icon: <Api className="w-8 h-8 text-blue-600" />,
+     icon: <Terminal className="w-8 h-8 text-blue-600" />,
       title: "API Integration",
       description: "Seamlessly integrate our data into your systems with our robust API, enabling real-time data access and custom queries.",
       features: ["Real-time Access", "Custom Queries", "Bulk Data Retrieval", "Flexible Integration"]
